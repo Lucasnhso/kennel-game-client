@@ -1,0 +1,56 @@
+$primary: #6c757d;
+$secondary: #343a40;
+$white: #fff;
+
+$default-font: 'Montserrat', sans-serif;
+
+$text-md: 1.6rem;
+$text-lg: 2.4rem;
+$text-xlg: 3.2rem;
+
+$line-height-md: 2.6rem;
+$line-height-lg: 3.4rem;
+$line-height-xlg: 4.2rem;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: $default-font;
+  background-color: $white;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1, h2, h3 {
+  color: $secondary;
+}
+
+h1 {
+  font-size: $text-xlg;
+  line-height: $line-height-xlg;
+}
+
+h2 {
+  font-size: $text-lg;
+  line-height: $line-height-lg;
+}
+
+p, label {
+  font-size: $text-md;
+  line-height: $line-height-md;
+}
+
+input, select {
+  outline: unset;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
